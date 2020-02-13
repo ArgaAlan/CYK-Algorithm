@@ -1,0 +1,17 @@
+digraph {
+node [shape=circle];
+node [style=filled];
+node [fillcolor="#EEEEEE"];
+node [color="#EEEEEE"];
+edge [color="#31CEF0"];
+q0 -> q1[label="a"];
+q1 -> q2[label="b"];
+q2 -> q3[label="c"];
+q3 -> q4[label="a"];
+q4 -> q5[label="b"];
+q5 -> q6[label="c"];
+q6 -> q3[label="a"];
+q6 -> q7[label="d"];
+q7[shape=Msquare];
+}
+
